@@ -33,9 +33,6 @@ build/
 dist/
 *.egg-info/
 
-# Wordcloud output
-*.png
-
 # OS / Editor-specific
 .DS_Store
 Thumbs.db
