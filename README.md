@@ -43,7 +43,7 @@ source venv/bin/activate
 #### 1.3 Install the SciCloud Package
 
 ```bash
-    pip install .
+pip install .
 ```
 
 ### 2. Create .txt file
