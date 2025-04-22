@@ -16,8 +16,35 @@
 
 ## 🚀 Quick Start
 
-### 1. Install package
-In the terminal, run pip install .
+### 1. Installation Guide
+#### 1.1 Clone the repository
+
+First, clone the repository locally.
+```bash
+git clone https://github.com/henrique-back/scicloud.git
+```
+#### 1.2 Create a virtual environment
+
+Next, create a virtual environment. Open the terminal in the project folder and run:
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+- **Windows**
+```bash
+venv\Scripts\activate.bat
+```
+
+- **Linux**
+```bash
+source venv/bin/activate
+```
+#### 1.3 Install the SciCloud Package
+
+```bash
+pip install .
+```
 
 ### 2. Create .txt file
 SciCloud will read a .txt file containing the text to be processed. This is usually a compilation of abstracts from scientific publications, but could be any kind of text.
@@ -25,9 +52,10 @@ To do this, simply create a new .txt file in the docs folder. Then, copy and pas
 SciCloud will treat everything as a single document, so don't worry about indicating where one abstract finishes and the other starts.
 
 ### 3. Run main.py
-In the terminal, run python main.py
+In the terminal, run python -m src.main
 
-You'll be prompted to choose a .txt file. After processing, a word cloud will be displayed, and you'll be prompted to save it.
+You'll be prompted to choose a .txt file. After processing, a word cloud will be displayed, and you'll be prompted to save it.- **Windows**
+ame
 
 
 
