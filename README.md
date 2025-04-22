@@ -54,7 +54,7 @@ SciCloud will treat everything as a single document, so don't worry about indica
 ### 3. Run main.py
 In the terminal, run python -m src.main
 
-You'll be prompted to choose a .txt file. After processing, a word cloud will be displayed, and you'll be prompted to save it.
+You'll be prompted to choose a .txt file. Optionally, you can exclude words from the cloud. When the dialog opens, simply press OK to skip, or specify the words. After processing, a word cloud will be displayed, and you'll be prompted to save it.
 
 ## Word Cloud Example
 
