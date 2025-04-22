@@ -1,0 +1,29 @@
+[project]
+name = "scicloud"
+version = "0.1.0"
+description = "A simple tool for tokenizing text and generating word clouds"
+authors = [
+    { name="Henrique Back", email="henriback2@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+dependencies = [
+    "matplotlib",
+    "wordcloud",
+    "nltk",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,14 @@
+You are most likely to use Euclidean distance when calculating the distance between two rows of data that have numerical values, such a floating point or integer values.
+
+If columns have values with differing scales, it is common to normalize or standardize the numerical values across all columns prior to calculating the Euclidean distance. Otherwise, columns that have large values will dominate the distance measure.
+
+Euclidean distance is calculated as the square root of the sum of the squared differences between the two vectors.
+
+EuclideanDistance = sqrt(sum for i to N (v1[i] — v2[i])²)
+If the distance calculation is to be performed thousands or millions of times, it is common to remove the square root operation in an effort to speed up the calculation. The resulting scores will have the same relative proportions after this modification and can still be used effectively within a machine learning algorithm for finding the most similar examples.
+
+Euclidean Distance = sum for i to N (v1[i] — v2[i])²
+The Euclidean is often the “default” distance used in e.g., K-nearest neighbors (classification) or K-means (clustering) to find the “k closest points” of a particular sample point. Another prominent example is hierarchical clustering, agglomerative clustering (complete and single linkage) where you want to find the distance between clusters.
+
+Manhattan Distance :
+The Manhattan distance, aka the Taxicab distance, also used to calculates the distance between two real-valued vectors.
