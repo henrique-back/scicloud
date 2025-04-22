@@ -57,5 +57,12 @@ In the terminal, run python -m src.main
 You'll be prompted to choose a .txt file. After processing, a word cloud will be displayed, and you'll be prompted to save it.- **Windows**
 ame
 
+## Word Cloud Example
+
+Here is an example of the word cloud generated from the input text:
+
+![Word Cloud](figs/2024_wordcloud.png)
+
+This word cloud visualizes the most frequent terms from the abstracts of scientific publications in 2024 by the MERS (Marine and Environmental Biogeosciences) research group at the Universitat Autònoma de Barcelona.
 
 
