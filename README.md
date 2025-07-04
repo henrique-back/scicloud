@@ -64,4 +64,5 @@ Here is an example of the word cloud generated from the input text:
 
 This word cloud visualizes the most frequent terms from the abstracts of scientific publications in 2024 by the MERS (Marine and Environmental Biogeosciences) research group at the Universitat Autònoma de Barcelona.
 
+DISCLAIMER: This repository was created alongside text and code generation tools with supervision by the author. 
 
